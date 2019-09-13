@@ -31,7 +31,7 @@
 		0280E0647E5E1C763266ED09 /* Pods-SGDigitTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		35D96F9A731D543618155558 /* Pods-SGDigitTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AFC7B6446D4C5E180D8EEB3 /* Pods-SGDigitTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5947EE659D9300421E92BD49 /* SGDigitTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SGDigitTextField.podspec; path = ../SGDigitTextField.podspec; sourceTree = "<group>"; };
+		5947EE659D9300421E92BD49 /* SGDigitTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SGDigitTextField.podspec; path = ../SGDigitTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SGDigitTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGDigitTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* SGDigitTextField_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGDigitTextField_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6EE1A1910CA8D21D2BEDF4EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6EE1A1910CA8D21D2BEDF4EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8B14B1279B887D3E78B9B440 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EED9C2F2185EBEF0A38A6B /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		966FFD4B846D1A52D6B1EA51 /* Pods-SGDigitTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F370D336D5A0CF55C22DF8CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F370D336D5A0CF55C22DF8CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				35D96F9A731D543618155558 /* Pods-SGDigitTextField_Tests.debug.xcconfig */,
 				0280E0647E5E1C763266ED09 /* Pods-SGDigitTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

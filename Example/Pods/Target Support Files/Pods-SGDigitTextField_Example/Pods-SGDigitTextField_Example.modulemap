@@ -1,0 +1,6 @@
+framework module Pods_SGDigitTextField_Example {
+  umbrella header "Pods-SGDigitTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

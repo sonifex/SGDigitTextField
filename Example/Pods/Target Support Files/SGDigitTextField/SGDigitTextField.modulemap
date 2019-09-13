@@ -1,0 +1,6 @@
+framework module SGDigitTextField {
+  umbrella header "SGDigitTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

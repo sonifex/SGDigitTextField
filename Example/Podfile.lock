@@ -1,0 +1,16 @@
+PODS:
+  - SGDigitTextField (0.1.0)
+
+DEPENDENCIES:
+  - SGDigitTextField (from `../`)
+
+EXTERNAL SOURCES:
+  SGDigitTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGDigitTextField: 20294d56731403b5e96d60dd364df7e3b6ae4f5b
+
+PODFILE CHECKSUM: f7eec62a5658dac22651ea29e5b87af11ef60e14
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,22 @@
+{
+  "name": "SGDigitTextField",
+  "version": "0.1.0",
+  "summary": "A short description of SGDigitTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sonifex/SGDigitTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sonifex": "soner.guler@applogist.com"
+  },
+  "source": {
+    "git": "https://github.com/sonifex/SGDigitTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SGDigitTextField/Classes/**/*"
+}
