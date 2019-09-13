@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGDigitTextField_Example' do
+  pod 'SGDigitTextField', :path => '../'
+
+  target 'SGDigitTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
