@@ -1,7 +1,7 @@
 {
   "name": "SGDigitTextField",
   "version": "0.1.0",
-  "summary": "A short description of SGDigitTextField.",
+  "summary": "Simplest Digit UITextField",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sonifex/SGDigitTextField",
   "license": {
@@ -9,14 +9,15 @@
     "file": "LICENSE"
   },
   "authors": {
-    "sonifex": "soner.guler@applogist.com"
+    "sonifex": "sonerguler93@gmail.com"
   },
   "source": {
     "git": "https://github.com/sonifex/SGDigitTextField.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/sonifex",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
   "source_files": "SGDigitTextField/Classes/**/*"
 }

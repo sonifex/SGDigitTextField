@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		404611F7A994AF8EB10F53DBEB7825A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F5C0B0882E07FEE7E27BB75106518EE /* SGDigitTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD353865E2DC55F1D20A3EF6143CA91 /* SGDigitTextField-dummy.m */; };
 		6414804D5DA927316A84C811DEDD7D29 /* Pods-SGDigitTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 577C05590F984438CEBDE2D75F057C19 /* Pods-SGDigitTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71FB1932B410118A1273C15EBB311F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8B75BB03CF9DCC5BBB73BA1D1CDF591B /* SGDigitTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D34A38C32F38B5FAF9140148F46CE6 /* SGDigitTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5FC95FB374E5241D14393E03190DB08 /* SGDigitTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB166417F077375E02D45AEBFAF5D0E /* SGDigitTextField-dummy.m */; };
+		8B75BB03CF9DCC5BBB73BA1D1CDF591B /* SGDigitTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D454ED038C2F1AC62BADD0D4899EE920 /* SGDigitTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C762EBD5D922D3CD101F87D5C1ACE7B3 /* Pods-SGDigitTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AE275EC002459122FA6688B57455A2 /* Pods-SGDigitTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA80D8957CB11BA760C5C99093C02CF0 /* SGDigitTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C291B9563390422751C49B808318740 /* SGDigitTextField.swift */; };
 		E40F531B41790D7F1A01EDEC5347D238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E6D16B2331962DC1FCE825ABAE7DAB39 /* Pods-SGDigitTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E7FC8F393CDFF3F6B6F073291242 /* Pods-SGDigitTextField_Example-dummy.m */; };
-		EBA2E396A55BBAD01DA79A82AEF683CF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FBC5D9DB19010459262AF3CFD35B49 /* ReplaceMe.swift */; };
 		F275710A46C1D5935E3CE7FF124B67E9 /* Pods-SGDigitTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A28DDF482FA5F132CC524863CA7361 /* Pods-SGDigitTextField_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,32 +43,32 @@
 		26A28DDF482FA5F132CC524863CA7361 /* Pods-SGDigitTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGDigitTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		26A616D220C6BBB05433B55DE893CAFE /* Pods-SGDigitTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGDigitTextField_Example-Info.plist"; sourceTree = "<group>"; };
 		296B5A83BF8060C108FF7824EAE1F99A /* SGDigitTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGDigitTextField.framework; path = SGDigitTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C291B9563390422751C49B808318740 /* SGDigitTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGDigitTextField.swift; path = SGDigitTextField/Classes/SGDigitTextField.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34EEEA2EF89FE9423F9CBC72CBFF0952 /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGDigitTextField_Example.framework; path = "Pods-SGDigitTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4246C086D0FAE27776D657B9ED95F495 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGDigitTextField_Tests.framework; path = "Pods-SGDigitTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52254004EC14B5F5E488AC6BDDED3040 /* SGDigitTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGDigitTextField-prefix.pch"; sourceTree = "<group>"; };
 		577C05590F984438CEBDE2D75F057C19 /* Pods-SGDigitTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGDigitTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		62D34A38C32F38B5FAF9140148F46CE6 /* SGDigitTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGDigitTextField-umbrella.h"; sourceTree = "<group>"; };
-		78235AD5C08D41C501506B225353D181 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		79FBC5D9DB19010459262AF3CFD35B49 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SGDigitTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		826CAA6370C6D9554633316F63941862 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		628D5CC2D98575C33E3DD40C196E5B6D /* SGDigitTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGDigitTextField.xcconfig; sourceTree = "<group>"; };
+		6BD353865E2DC55F1D20A3EF6143CA91 /* SGDigitTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGDigitTextField-dummy.m"; sourceTree = "<group>"; };
+		6CEB531892481EE82229C3F852CB9343 /* SGDigitTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGDigitTextField-Info.plist"; sourceTree = "<group>"; };
+		7E104580040AC436ED442C181ABCD7C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8F5FE916F5DE78C32620334ECC4062A2 /* Pods-SGDigitTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8FC402D6D940C71946C0CB875845E5DB /* SGDigitTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGDigitTextField.xcconfig; sourceTree = "<group>"; };
 		9AD53EF53D786070AA69467E461DD8BA /* Pods-SGDigitTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F91F69438C4B4B84AD4E16D769A76C4 /* Pods-SGDigitTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGDigitTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5E3E7FC8F393CDFF3F6B6F073291242 /* Pods-SGDigitTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGDigitTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		B1AB0DAE6A6BDB5995CF4CB2442BF920 /* SGDigitTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGDigitTextField-Info.plist"; sourceTree = "<group>"; };
+		A79F5EB26821FF5C9E309CF2E1B9ECFF /* SGDigitTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGDigitTextField-prefix.pch"; sourceTree = "<group>"; };
+		B87262C746BFBF0D6EA8F49F304E83C8 /* SGDigitTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SGDigitTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B98B586A41BA7400D4A7FBA109468ACC /* Pods-SGDigitTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGDigitTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C023E8DAC63C79BE007F07418B2FDD2D /* Pods-SGDigitTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C60B95F91EEDB3348DDA47F6E3905B3D /* SGDigitTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SGDigitTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C270E9806447EAA8393E3CF5CACCA88E /* SGDigitTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGDigitTextField.modulemap; sourceTree = "<group>"; };
 		C79D074B54D2D88FD96C76A15A982152 /* Pods-SGDigitTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGDigitTextField_Example.modulemap"; sourceTree = "<group>"; };
 		C8A9E7B7BABFBFF4D2729662906EB517 /* Pods-SGDigitTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8AE275EC002459122FA6688B57455A2 /* Pods-SGDigitTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGDigitTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		DCA2583224246D14809AAF68559E38EB /* SGDigitTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGDigitTextField.modulemap; sourceTree = "<group>"; };
+		D454ED038C2F1AC62BADD0D4899EE920 /* SGDigitTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGDigitTextField-umbrella.h"; sourceTree = "<group>"; };
 		E1D7D2CD6324505FB7030363FF740DFC /* Pods-SGDigitTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGDigitTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		EDF0CFF05AAEB47B15A9B8366C6EAAA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EF72C7A56B3BF87438C74D79A6870340 /* Pods-SGDigitTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGDigitTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FAB166417F077375E02D45AEBFAF5D0E /* SGDigitTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGDigitTextField-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067F9F40FFD31EFF11D06B21231E4D64 /* SGDigitTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2C291B9563390422751C49B808318740 /* SGDigitTextField.swift */,
+				2775B57FF34F791323F5772585D3A1C2 /* Pod */,
+				99125DE81E04297D85AD66600A3BEEBF /* Support Files */,
+			);
+			name = SGDigitTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		0BBC966A44B7929B9CDF219346924F17 /* Pods-SGDigitTextField_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +127,16 @@
 			path = "Target Support Files/Pods-SGDigitTextField_Example";
 			sourceTree = "<group>";
 		};
+		2775B57FF34F791323F5772585D3A1C2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDF0CFF05AAEB47B15A9B8366C6EAAA5 /* LICENSE */,
+				7E104580040AC436ED442C181ABCD7C6 /* README.md */,
+				B87262C746BFBF0D6EA8F49F304E83C8 /* SGDigitTextField.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		286D11D9600EED318A82BD04C579AB92 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,17 +144,6 @@
 				57ED547CD5CD8BD2493B59DE6D8977A7 /* Pods-SGDigitTextField_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2BFFF97BD9AD174D4159B6F0F6F86F07 /* SGDigitTextField */ = {
-			isa = PBXGroup;
-			children = (
-				79FBC5D9DB19010459262AF3CFD35B49 /* ReplaceMe.swift */,
-				4D7CF937EA92A0C1E2C3D519721FEBBC /* Pod */,
-				7AF1C576812AE2223ED4DFBA3DCF7D56 /* Support Files */,
-			);
-			name = SGDigitTextField;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		43FF979412B9E7ABABF44E56F6014B59 /* Products */ = {
@@ -144,16 +154,6 @@
 				296B5A83BF8060C108FF7824EAE1F99A /* SGDigitTextField.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4D7CF937EA92A0C1E2C3D519721FEBBC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				826CAA6370C6D9554633316F63941862 /* LICENSE */,
-				78235AD5C08D41C501506B225353D181 /* README.md */,
-				C60B95F91EEDB3348DDA47F6E3905B3D /* SGDigitTextField.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		57ED547CD5CD8BD2493B59DE6D8977A7 /* Pods-SGDigitTextField_Tests */ = {
@@ -172,26 +172,26 @@
 			path = "Target Support Files/Pods-SGDigitTextField_Tests";
 			sourceTree = "<group>";
 		};
-		7AF1C576812AE2223ED4DFBA3DCF7D56 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCA2583224246D14809AAF68559E38EB /* SGDigitTextField.modulemap */,
-				8FC402D6D940C71946C0CB875845E5DB /* SGDigitTextField.xcconfig */,
-				FAB166417F077375E02D45AEBFAF5D0E /* SGDigitTextField-dummy.m */,
-				B1AB0DAE6A6BDB5995CF4CB2442BF920 /* SGDigitTextField-Info.plist */,
-				52254004EC14B5F5E488AC6BDDED3040 /* SGDigitTextField-prefix.pch */,
-				62D34A38C32F38B5FAF9140148F46CE6 /* SGDigitTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SGDigitTextField";
-			sourceTree = "<group>";
-		};
 		8E3746370C68DD32FAC63BABE7FEF3A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2BFFF97BD9AD174D4159B6F0F6F86F07 /* SGDigitTextField */,
+				067F9F40FFD31EFF11D06B21231E4D64 /* SGDigitTextField */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		99125DE81E04297D85AD66600A3BEEBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C270E9806447EAA8393E3CF5CACCA88E /* SGDigitTextField.modulemap */,
+				628D5CC2D98575C33E3DD40C196E5B6D /* SGDigitTextField.xcconfig */,
+				6BD353865E2DC55F1D20A3EF6143CA91 /* SGDigitTextField-dummy.m */,
+				6CEB531892481EE82229C3F852CB9343 /* SGDigitTextField-Info.plist */,
+				A79F5EB26821FF5C9E309CF2E1B9ECFF /* SGDigitTextField-prefix.pch */,
+				D454ED038C2F1AC62BADD0D4899EE920 /* SGDigitTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGDigitTextField";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -256,7 +256,7 @@
 			buildConfigurationList = FE2D7BC947DD5033B2E0CC95DC5385AE /* Build configuration list for PBXNativeTarget "SGDigitTextField" */;
 			buildPhases = (
 				A528C485342C905D28C46150372FE6AD /* Headers */,
-				F748F5CD62BA1A2EED4567E02F458E72 /* Sources */,
+				6B1F1368D6FF1213D9F8B529276B54DF /* Sources */,
 				637F184BFE878FC6A146D5521AB034D3 /* Frameworks */,
 				C97C7932F84EB1F1F8F1ACBD367C1407 /* Resources */,
 			);
@@ -368,20 +368,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B1F1368D6FF1213D9F8B529276B54DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5C0B0882E07FEE7E27BB75106518EE /* SGDigitTextField-dummy.m in Sources */,
+				CA80D8957CB11BA760C5C99093C02CF0 /* SGDigitTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB92BB4EE4AE591EE4A37BECACE11B90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F275710A46C1D5935E3CE7FF124B67E9 /* Pods-SGDigitTextField_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F748F5CD62BA1A2EED4567E02F458E72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBA2E396A55BBAD01DA79A82AEF683CF /* ReplaceMe.swift in Sources */,
-				A5FC95FB374E5241D14393E03190DB08 /* SGDigitTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +430,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C68767450075CAB53CA934088046B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628D5CC2D98575C33E3DD40C196E5B6D /* SGDigitTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGDigitTextField/SGDigitTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGDigitTextField/SGDigitTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGDigitTextField/SGDigitTextField.modulemap";
+				PRODUCT_MODULE_NAME = SGDigitTextField;
+				PRODUCT_NAME = SGDigitTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -503,9 +534,9 @@
 			};
 			name = Release;
 		};
-		94B789CB682518AF49E8FAB31627D405 /* Release */ = {
+		645BEF4DA0CE8365404E84AFA3976C14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FC402D6D940C71946C0CB875845E5DB /* SGDigitTextField.xcconfig */;
+			baseConfigurationReference = 628D5CC2D98575C33E3DD40C196E5B6D /* SGDigitTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -519,7 +550,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SGDigitTextField/SGDigitTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SGDigitTextField/SGDigitTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SGDigitTextField/SGDigitTextField.modulemap";
 				PRODUCT_MODULE_NAME = SGDigitTextField;
@@ -527,44 +558,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9A4C11DF7CE63087D77B0C8AF5C83021 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FC402D6D940C71946C0CB875845E5DB /* SGDigitTextField.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SGDigitTextField/SGDigitTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SGDigitTextField/SGDigitTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SGDigitTextField/SGDigitTextField.modulemap";
-				PRODUCT_MODULE_NAME = SGDigitTextField;
-				PRODUCT_NAME = SGDigitTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9C938C200F3CD06F876EAB1EF4AD0C0F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -757,8 +757,8 @@
 		FE2D7BC947DD5033B2E0CC95DC5385AE /* Build configuration list for PBXNativeTarget "SGDigitTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4C11DF7CE63087D77B0C8AF5C83021 /* Debug */,
-				94B789CB682518AF49E8FAB31627D405 /* Release */,
+				2C68767450075CAB53CA934088046B1D /* Debug */,
+				645BEF4DA0CE8365404E84AFA3976C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
