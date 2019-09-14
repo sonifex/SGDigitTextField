@@ -16,7 +16,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### How it looks?
 
-<img src="/Gifs/example-gif-sim.gif" />
+Example 1  |  Example 2  |  Sms Example
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](Gifs/example1.gif)  |  ![](Gifs/example2.gif) |  ![](Gifs/example-onetime.gif) 
+
+
+<img width="250" src="/Gifs/example-gif-sim.gif" />
 
 
 ## Usage

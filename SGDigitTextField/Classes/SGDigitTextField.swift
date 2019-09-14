@@ -52,7 +52,7 @@ open class SGDigitTextField: UITextField {
 
 
     /// When isSecureTextEntry is selected, this character will be shown
-    var secureCharacter: String = "・"
+    var secureCharacter: String = "●"
 
     private var labels = [UILabel]()
     private var stackView: UIStackView?

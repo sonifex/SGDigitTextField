@@ -15,7 +15,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		83B2E749232CEBC00033E91F /* example-gif-xcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E747232CEBC00033E91F /* example-gif-xcode.gif */; };
-		83B2E74A232CEBC00033E91F /* example-gif-sim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E748232CEBC00033E91F /* example-gif-sim.gif */; };
+		83B2E74A232CEBC00033E91F /* example1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E748232CEBC00033E91F /* example1.gif */; };
+		83B2E74D232D13E20033E91F /* example-onetime.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E74B232D13E20033E91F /* example-onetime.gif */; };
+		83B2E74E232D13E20033E91F /* example2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E74C232D13E20033E91F /* example2.gif */; };
 		950AEAE7C72A25FDEDC4B737 /* Pods_SGDigitTextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B14B1279B887D3E78B9B440 /* Pods_SGDigitTextField_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +48,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6EE1A1910CA8D21D2BEDF4EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		83B2E747232CEBC00033E91F /* example-gif-xcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-gif-xcode.gif"; sourceTree = "<group>"; };
-		83B2E748232CEBC00033E91F /* example-gif-sim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-gif-sim.gif"; sourceTree = "<group>"; };
+		83B2E748232CEBC00033E91F /* example1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example1.gif; sourceTree = "<group>"; };
+		83B2E74B232D13E20033E91F /* example-onetime.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-onetime.gif"; sourceTree = "<group>"; };
+		83B2E74C232D13E20033E91F /* example2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example2.gif; sourceTree = "<group>"; };
 		8B14B1279B887D3E78B9B440 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EED9C2F2185EBEF0A38A6B /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		966FFD4B846D1A52D6B1EA51 /* Pods-SGDigitTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				83B2E747232CEBC00033E91F /* example-gif-xcode.gif */,
-				83B2E748232CEBC00033E91F /* example-gif-sim.gif */,
+				83B2E748232CEBC00033E91F /* example1.gif */,
+				83B2E74C232D13E20033E91F /* example2.gif */,
+				83B2E74B232D13E20033E91F /* example-onetime.gif */,
 			);
 			name = Gifs;
 			path = ../Gifs;
@@ -265,8 +271,10 @@
 				83B2E749232CEBC00033E91F /* example-gif-xcode.gif in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				83B2E74D232D13E20033E91F /* example-onetime.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				83B2E74A232CEBC00033E91F /* example-gif-sim.gif in Resources */,
+				83B2E74A232CEBC00033E91F /* example1.gif in Resources */,
+				83B2E74E232D13E20033E91F /* example2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +516,7 @@
 				INFOPLIST_FILE = SGDigitTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonifex.SGDigitTextFieldExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -524,7 +532,7 @@
 				INFOPLIST_FILE = SGDigitTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonifex.SGDigitTextFieldExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;

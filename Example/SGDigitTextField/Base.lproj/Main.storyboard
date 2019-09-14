@@ -22,26 +22,26 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SyD-Kf-FNB" customClass="SGDigitTextField" customModule="SGDigitTextField">
-                                <rect key="frame" x="87.5" y="233.5" width="200" height="60"/>
+                                <rect key="frame" x="80" y="238.5" width="215" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="35l-yJ-JiT"/>
-                                    <constraint firstAttribute="height" constant="60" id="pRB-cy-hjP"/>
+                                    <constraint firstAttribute="width" constant="215" id="35l-yJ-JiT"/>
+                                    <constraint firstAttribute="height" constant="50" id="pRB-cy-hjP"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="digitCount">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="20"/>
+                                        <real key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightedBorderColor">
                                         <color key="value" red="0.35686274509999999" green="0.72941176470000002" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="199" y="-152"/>
+            <point key="canvasLocation" x="-121" y="-165"/>
         </scene>
     </scenes>
 </document>
