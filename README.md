@@ -26,7 +26,10 @@ Example 1  |  Example 2  |  Sms Example
 
 
 ## Requirements
-    Coming Soon
+
+- iOS 9.3
+- Xcode 10.2+
+- Swift 5+
 
 ## Installation
 
