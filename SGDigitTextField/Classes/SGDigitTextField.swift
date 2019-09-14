@@ -21,12 +21,41 @@ open class SGDigitTextField: UITextField {
     }
 
     /// Digit label normal border color
-    var borderColor: UIColor = .gray
+    @IBInspectable
+    var borderColor: UIColor = .gray {
+        didSet {
+            reload()
+        }
+    }
 
     /// Digit label highlighted border color
-    var highlightedBorderColor: UIColor = .red
+    @IBInspectable
+    var highlightedBorderColor: UIColor = .red {
+        didSet {
+            reload()
+        }
+    }
+
+    @IBInspectable
+    var borderWidth: CGFloat = 1.0 {
+        didSet {
+            reload()
+        }
+    }
+
+    @IBInspectable
+    var cornerRadius: CGFloat = 10.0 {
+        didSet {
+            reload()
+        }
+    }
+
+
+    /// When isSecureTextEntry is selected, this character will be shown
+    var secureCharacter: String = "・"
 
     private var labels = [UILabel]()
+    private var stackView: UIStackView?
 
 
     required public init?(coder aDecoder: NSCoder) {
@@ -67,8 +96,14 @@ open class SGDigitTextField: UITextField {
         createStackView(for: count)
     }
 
+    /// Reloads the content
+    func reload() {
+        configure(with: digitCount)
+    }
+
     /// Responsible for creating and adding stackview on the textfield
     private func createStackView(for count: Int) {
+
         let stack = UIStackView(frame: bounds)
         stack.spacing = 5
         stack.alignment = .fill
@@ -82,17 +117,18 @@ open class SGDigitTextField: UITextField {
             labels.append(lbl)
             stack.addArrangedSubview(lbl)
         }
-
+        stackView?.removeFromSuperview()
+        stackView = stack
         addSubview(stack)
     }
 
     /// Returns label with format
     private func createLabel() -> UILabel {
         let lbl = UILabel()
-        lbl.layer.cornerRadius = 10
+        lbl.layer.cornerRadius = cornerRadius
         lbl.layer.borderColor = borderColor.cgColor
-        lbl.layer.borderWidth = 1.0
-        lbl.font = UIFont.systemFont(ofSize: 29, weight: .light)
+        lbl.layer.borderWidth = borderWidth
+        lbl.font = font
         lbl.textAlignment = .center
         lbl.isUserInteractionEnabled = false
         return lbl
@@ -122,7 +158,8 @@ open class SGDigitTextField: UITextField {
 
             if i < text.count {
                 let index = text.index(text.startIndex, offsetBy: i)
-                lbl.text = String(text[index])
+                let char = isSecureTextEntry ? secureCharacter : String(text[index])
+                lbl.text = char
             }
         }
         updateLabelFocus()

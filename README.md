@@ -1,6 +1,6 @@
 # SGDigitTextField
 
-[![CI Status](https://img.shields.io/travis/sonifex/SGDigitTextField.svg?style=flat)](https://travis-ci.org/sonifex/SGDigitTextField)
+<!--[![CI Status](https://img.shields.io/travis/sonifex/SGDigitTextField.svg?style=flat)](https://travis-ci.org/sonifex/SGDigitTextField)-->
 [![Version](https://img.shields.io/cocoapods/v/SGDigitTextField.svg?style=flat)](https://cocoapods.org/pods/SGDigitTextField)
 [![License](https://img.shields.io/cocoapods/l/SGDigitTextField.svg?style=flat)](https://cocoapods.org/pods/SGDigitTextField)
 [![Platform](https://img.shields.io/cocoapods/p/SGDigitTextField.svg?style=flat)](https://cocoapods.org/pods/SGDigitTextField)
