@@ -97,7 +97,6 @@
 		607FACD21AFB9204008FA782 /* Example for SGDigitTextField */ = {
 			isa = PBXGroup;
 			children = (
-				83B2E741232CE9E10033E91F /* Gifs */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -137,6 +136,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				83B2E741232CE9E10033E91F /* Gifs */,
 				5947EE659D9300421E92BD49 /* SGDigitTextField.podspec */,
 				F370D336D5A0CF55C22DF8CB /* README.md */,
 				6EE1A1910CA8D21D2BEDF4EF /* LICENSE */,
@@ -151,6 +151,7 @@
 				83B2E742232CE9EC0033E91F /* example-gif-xcode.gif */,
 			);
 			name = Gifs;
+			path = SGDigitTextField;
 			sourceTree = "<group>";
 		};
 		B92274FA6B8028E283571933 /* Frameworks */ = {
