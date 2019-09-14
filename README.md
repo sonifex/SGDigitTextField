@@ -40,6 +40,12 @@ it, simply add the following line to your Podfile:
 pod 'SGDigitTextField'
 ```
 
+## TODO
+ - Documentation Improvement
+ - Testing
+ - More UI features
+ - ...
+ 
 ## Contributing
 
 We welcome all contributions. Thank you.

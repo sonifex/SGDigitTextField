@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SGDigitTextField'
   s.version          = '0.1.0'
-  s.summary          = 'Simplest Digit UITextField'
+  s.summary          = 'Elegant and Simplest Digit UITextField'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,11 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Elegant & Simplest Digit UITextField
                        DESC
 
   s.homepage         = 'https://github.com/sonifex/SGDigitTextField'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example1.gif', 'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example2.gif',
+  'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example-onetime.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sonifex' => 'sonerguler93@gmail.com' }
   s.source           = { :git => 'https://github.com/sonifex/SGDigitTextField.git', :tag => s.version.to_s }
