@@ -12,16 +12,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### Storyboard Usage
 
-<img src="/Gifs/example-gif-xcode.gif" />
+<img src="/Gifs/example-xcode.gif" />
 
 ### How it looks?
 
 Example 1  |  Example 2  |  Sms Example
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![](Gifs/example1.gif)  |  ![](Gifs/example2.gif) |  ![](Gifs/example-onetime.gif) 
-
-
-<img width="250" src="/Gifs/example-gif-sim.gif" />
 
 
 ## Usage
