@@ -50,7 +50,7 @@
 		8B14B1279B887D3E78B9B440 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EED9C2F2185EBEF0A38A6B /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		966FFD4B846D1A52D6B1EA51 /* Pods-SGDigitTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F370D336D5A0CF55C22DF8CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F370D336D5A0CF55C22DF8CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

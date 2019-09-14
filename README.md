@@ -10,13 +10,21 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Storyboard Usage
-![Storyboard Usage](Gifs/example-gif-xcode.gif)
+### Storyboard Usage
 
-Example
-![Example](Gifs/example-gif-sim.gif)
+<img src="/Gifs/example-gif-xcode.gif" />
+
+### How it looks?
+
+<img src="/Gifs/example-gif-sim.gif" />
+
+
+## Usage
+    Coming Soon
+
 
 ## Requirements
+    Coming Soon
 
 ## Installation
 
@@ -26,6 +34,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SGDigitTextField'
 ```
+
+## Contributing
+
+We welcome all contributions. Thank you.
 
 ## Author
 

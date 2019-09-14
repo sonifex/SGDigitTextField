@@ -42,23 +42,23 @@
 		21E3EEBEB05F433C27CC587BB5826975 /* Pods-SGDigitTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGDigitTextField_Tests-Info.plist"; sourceTree = "<group>"; };
 		26A28DDF482FA5F132CC524863CA7361 /* Pods-SGDigitTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGDigitTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		26A616D220C6BBB05433B55DE893CAFE /* Pods-SGDigitTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGDigitTextField_Example-Info.plist"; sourceTree = "<group>"; };
-		296B5A83BF8060C108FF7824EAE1F99A /* SGDigitTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGDigitTextField.framework; path = SGDigitTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296B5A83BF8060C108FF7824EAE1F99A /* SGDigitTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGDigitTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C291B9563390422751C49B808318740 /* SGDigitTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGDigitTextField.swift; path = SGDigitTextField/Classes/SGDigitTextField.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34EEEA2EF89FE9423F9CBC72CBFF0952 /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGDigitTextField_Example.framework; path = "Pods-SGDigitTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4246C086D0FAE27776D657B9ED95F495 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGDigitTextField_Tests.framework; path = "Pods-SGDigitTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EEEA2EF89FE9423F9CBC72CBFF0952 /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4246C086D0FAE27776D657B9ED95F495 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		577C05590F984438CEBDE2D75F057C19 /* Pods-SGDigitTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGDigitTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		628D5CC2D98575C33E3DD40C196E5B6D /* SGDigitTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGDigitTextField.xcconfig; sourceTree = "<group>"; };
 		6BD353865E2DC55F1D20A3EF6143CA91 /* SGDigitTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGDigitTextField-dummy.m"; sourceTree = "<group>"; };
 		6CEB531892481EE82229C3F852CB9343 /* SGDigitTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGDigitTextField-Info.plist"; sourceTree = "<group>"; };
-		7E104580040AC436ED442C181ABCD7C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7E104580040AC436ED442C181ABCD7C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		8F5FE916F5DE78C32620334ECC4062A2 /* Pods-SGDigitTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AD53EF53D786070AA69467E461DD8BA /* Pods-SGDigitTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F91F69438C4B4B84AD4E16D769A76C4 /* Pods-SGDigitTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGDigitTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5E3E7FC8F393CDFF3F6B6F073291242 /* Pods-SGDigitTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGDigitTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		A79F5EB26821FF5C9E309CF2E1B9ECFF /* SGDigitTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGDigitTextField-prefix.pch"; sourceTree = "<group>"; };
-		B87262C746BFBF0D6EA8F49F304E83C8 /* SGDigitTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SGDigitTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B87262C746BFBF0D6EA8F49F304E83C8 /* SGDigitTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SGDigitTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B98B586A41BA7400D4A7FBA109468ACC /* Pods-SGDigitTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGDigitTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C023E8DAC63C79BE007F07418B2FDD2D /* Pods-SGDigitTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGDigitTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C270E9806447EAA8393E3CF5CACCA88E /* SGDigitTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGDigitTextField.modulemap; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		C8AE275EC002459122FA6688B57455A2 /* Pods-SGDigitTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGDigitTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		D454ED038C2F1AC62BADD0D4899EE920 /* SGDigitTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGDigitTextField-umbrella.h"; sourceTree = "<group>"; };
 		E1D7D2CD6324505FB7030363FF740DFC /* Pods-SGDigitTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGDigitTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		EDF0CFF05AAEB47B15A9B8366C6EAAA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EDF0CFF05AAEB47B15A9B8366C6EAAA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EF72C7A56B3BF87438C74D79A6870340 /* Pods-SGDigitTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGDigitTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -653,8 +653,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
