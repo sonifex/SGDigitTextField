@@ -14,8 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		83B2E744232CE9EC0033E91F /* example-gif-xcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E742232CE9EC0033E91F /* example-gif-xcode.gif */; };
-		83B2E745232CE9EC0033E91F /* example-gif-sim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E743232CE9EC0033E91F /* example-gif-sim.gif */; };
+		83B2E749232CEBC00033E91F /* example-gif-xcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E747232CEBC00033E91F /* example-gif-xcode.gif */; };
+		83B2E74A232CEBC00033E91F /* example-gif-sim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83B2E748232CEBC00033E91F /* example-gif-sim.gif */; };
 		950AEAE7C72A25FDEDC4B737 /* Pods_SGDigitTextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B14B1279B887D3E78B9B440 /* Pods_SGDigitTextField_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6EE1A1910CA8D21D2BEDF4EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		83B2E742232CE9EC0033E91F /* example-gif-xcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-gif-xcode.gif"; sourceTree = "<group>"; };
-		83B2E743232CE9EC0033E91F /* example-gif-sim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-gif-sim.gif"; sourceTree = "<group>"; };
+		83B2E747232CEBC00033E91F /* example-gif-xcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-gif-xcode.gif"; sourceTree = "<group>"; };
+		83B2E748232CEBC00033E91F /* example-gif-sim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "example-gif-sim.gif"; sourceTree = "<group>"; };
 		8B14B1279B887D3E78B9B440 /* Pods_SGDigitTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EED9C2F2185EBEF0A38A6B /* Pods_SGDigitTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDigitTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		966FFD4B846D1A52D6B1EA51 /* Pods-SGDigitTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDigitTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				83B2E741232CE9E10033E91F /* Gifs */,
+				83B2E746232CEBC00033E91F /* Gifs */,
 				5947EE659D9300421E92BD49 /* SGDigitTextField.podspec */,
 				F370D336D5A0CF55C22DF8CB /* README.md */,
 				6EE1A1910CA8D21D2BEDF4EF /* LICENSE */,
@@ -144,14 +144,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		83B2E741232CE9E10033E91F /* Gifs */ = {
+		83B2E746232CEBC00033E91F /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				83B2E743232CE9EC0033E91F /* example-gif-sim.gif */,
-				83B2E742232CE9EC0033E91F /* example-gif-xcode.gif */,
+				83B2E747232CEBC00033E91F /* example-gif-xcode.gif */,
+				83B2E748232CEBC00033E91F /* example-gif-sim.gif */,
 			);
 			name = Gifs;
-			path = SGDigitTextField;
+			path = ../Gifs;
 			sourceTree = "<group>";
 		};
 		B92274FA6B8028E283571933 /* Frameworks */ = {
@@ -262,11 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83B2E744232CE9EC0033E91F /* example-gif-xcode.gif in Resources */,
+				83B2E749232CEBC00033E91F /* example-gif-xcode.gif in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				83B2E745232CE9EC0033E91F /* example-gif-sim.gif in Resources */,
+				83B2E74A232CEBC00033E91F /* example-gif-sim.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
