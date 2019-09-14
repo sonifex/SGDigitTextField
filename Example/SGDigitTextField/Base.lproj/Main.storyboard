@@ -22,10 +22,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SyD-Kf-FNB" customClass="SGDigitTextField" customModule="SGDigitTextField">
-                                <rect key="frame" x="112.5" y="120" width="150" height="50"/>
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="35l-yJ-JiT"/>
-                                    <constraint firstAttribute="height" constant="50" id="pRB-cy-hjP"/>
+                                    <constraint firstAttribute="width" constant="200" id="35l-yJ-JiT"/>
+                                    <constraint firstAttribute="height" constant="60" id="pRB-cy-hjP"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -39,7 +39,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SyD-Kf-FNB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="DBB-GM-YCP"/>
+                            <constraint firstItem="SyD-Kf-FNB" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-70" id="sEp-FJ-2Ou"/>
                             <constraint firstItem="SyD-Kf-FNB" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="tVg-Qc-B8H"/>
                         </constraints>
                     </view>
