@@ -10,7 +10,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+Storyboard Usage
 ![Storyboard Usage](Gifs/example-gif-xcode.gif)
+
+Example
+![Example](Gifs/example-gif-sim.gif)
 
 ## Requirements
 
