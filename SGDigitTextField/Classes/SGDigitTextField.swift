@@ -50,6 +50,34 @@ open class SGDigitTextField: UITextField {
         }
     }
 
+    @IBInspectable
+    var shadowRadius: CGFloat = 0.0 {
+        didSet {
+            reload()
+        }
+    }
+
+    @IBInspectable
+    var shadowOpacity: Float = 0.0 {
+        didSet {
+            reload()
+        }
+    }
+
+    @IBInspectable
+    var shadowOffset: CGSize = .zero {
+        didSet {
+            reload()
+        }
+    }
+
+    @IBInspectable
+    var shadowColor: UIColor? {
+        didSet {
+            reload()
+        }
+    }
+
 
     /// When isSecureTextEntry is selected, this character will be shown
     var secureCharacter: String = "●"
@@ -128,6 +156,10 @@ open class SGDigitTextField: UITextField {
         lbl.layer.cornerRadius = cornerRadius
         lbl.layer.borderColor = borderColor.cgColor
         lbl.layer.borderWidth = borderWidth
+        lbl.layer.shadowColor = shadowColor?.cgColor
+        lbl.layer.shadowOffset = shadowOffset
+        lbl.layer.shadowRadius = shadowRadius
+        lbl.layer.shadowOpacity = shadowOpacity
         lbl.font = font
         lbl.textAlignment = .center
         lbl.isUserInteractionEnabled = false

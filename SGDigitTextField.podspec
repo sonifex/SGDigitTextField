@@ -18,18 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Elegant & Simplest Digit UITextField
+Elegant & Simplest Digit UITextField.
+You can also configure the textfield without coding.
                        DESC
 
   s.homepage         = 'https://github.com/sonifex/SGDigitTextField'
-  s.screenshots     = 'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example1.gif', 'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example2.gif',
-  'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example-onetime.gif'
+  #s.screenshots     = 'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example1.gif', 'https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example2.gif','https://github.com/sonifex/SGDigitTextField/blob/master/Gifs/example-onetime.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sonifex' => 'sonerguler93@gmail.com' }
   s.source           = { :git => 'https://github.com/sonifex/SGDigitTextField.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/sonifex'
 
   s.ios.deployment_target = '9.3'
+  s.swift_version = '5.0'
 
   s.source_files = 'SGDigitTextField/Classes/**/*'
   
