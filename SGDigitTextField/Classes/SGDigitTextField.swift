@@ -78,6 +78,20 @@ open class SGDigitTextField: UITextField {
         }
     }
 
+    @IBInspectable
+    var digitBackgroundColor: UIColor? {
+        didSet {
+            reload()
+        }
+    }
+
+    @IBInspectable
+    var highlightedDigitBackgroundColor: UIColor? {
+        didSet {
+            reload()
+        }
+    }
+
 
     /// When isSecureTextEntry is selected, this character will be shown
     var secureCharacter: String = "●"
@@ -160,6 +174,7 @@ open class SGDigitTextField: UITextField {
         lbl.layer.shadowOffset = shadowOffset
         lbl.layer.shadowRadius = shadowRadius
         lbl.layer.shadowOpacity = shadowOpacity
+        lbl.backgroundColor = digitBackgroundColor
         lbl.font = font
         lbl.textAlignment = .center
         lbl.isUserInteractionEnabled = false
@@ -178,6 +193,7 @@ open class SGDigitTextField: UITextField {
 
         let focusedLabel = labels[text.count]
         focusedLabel.layer.borderColor = highlightedBorderColor.cgColor
+        focusedLabel.layer.backgroundColor = highlightedDigitBackgroundColor?.cgColor
     }
 
     /// Triggered when text changed
