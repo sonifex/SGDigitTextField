@@ -110,6 +110,12 @@ open class SGDigitTextField: UITextField {
         commonInit()
     }
 
+    open override func setNeedsLayout() {
+        super.setNeedsLayout()
+        
+        stackView?.frame = bounds
+    }
+
     private func commonInit() {
         delegate = self
         keyboardType = .numberPad
@@ -161,7 +167,7 @@ open class SGDigitTextField: UITextField {
         }
         stackView?.removeFromSuperview()
         stackView = stack
-        addSubview(stack)
+        addSubview(stackView!)
     }
 
     /// Returns label with format
