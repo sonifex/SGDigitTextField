@@ -134,12 +134,12 @@ open class SGDigitTextField: UITextField {
     /// Configures the textfield according to digit count
     ///
     /// - Parameter count: Digit count
-    func configure(with count: Int) {
+    open func configure(with count: Int) {
         createStackView(for: count)
     }
 
     /// Reloads the content
-    func reload() {
+    open func reload() {
         configure(with: digitCount)
     }
 
