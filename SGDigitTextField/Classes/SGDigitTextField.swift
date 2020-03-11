@@ -94,7 +94,7 @@ open class SGDigitTextField: UITextField {
 
 
     /// When isSecureTextEntry is selected, this character will be shown
-    var secureCharacter: String = "●"
+    public var secureCharacter: String = "●"
 
     private var labels = [UILabel]()
     private var stackView: UIStackView?
@@ -145,8 +145,14 @@ open class SGDigitTextField: UITextField {
     }
 
     /// Reloads the content
-    func reload() {
+    public func reload() {
         configure(with: digitCount)
+    }
+    
+    /// Clean the digits
+    public func reset() {
+        text = ""
+        labels.forEach { $0.text = "" }
     }
 
     /// Responsible for creating and adding stackview on the textfield
@@ -175,6 +181,7 @@ open class SGDigitTextField: UITextField {
         let lbl = UILabel()
         lbl.layer.cornerRadius = cornerRadius
         lbl.layer.borderColor = borderColor.cgColor
+        lbl.layer.masksToBounds = cornerRadius > 0
         lbl.layer.borderWidth = borderWidth
         lbl.layer.shadowColor = shadowColor?.cgColor
         lbl.layer.shadowOffset = shadowOffset

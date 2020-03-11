@@ -25,5 +25,8 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
 
+    @IBAction func resetButtonTapped(_ sender: Any) {
+        digitTextField.reset()
+    }
 }
 
