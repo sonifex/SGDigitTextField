@@ -19,6 +19,13 @@ open class SGDigitTextField: UITextField {
             configure(with: digitCount)
         }
     }
+    
+    @IBInspectable
+    var digitColor: UIColor = .black {
+        didSet {
+            configure(with: digitCount)
+        }
+    }
 
     /// Digit label normal border color
     @IBInspectable
@@ -181,14 +188,15 @@ open class SGDigitTextField: UITextField {
         let lbl = UILabel()
         lbl.layer.cornerRadius = cornerRadius
         lbl.layer.borderColor = borderColor.cgColor
-        lbl.layer.masksToBounds = cornerRadius > 0
+//        lbl.layer.masksToBounds = cornerRadius > 0
         lbl.layer.borderWidth = borderWidth
         lbl.layer.shadowColor = shadowColor?.cgColor
         lbl.layer.shadowOffset = shadowOffset
         lbl.layer.shadowRadius = shadowRadius
         lbl.layer.shadowOpacity = shadowOpacity
-        lbl.backgroundColor = digitBackgroundColor
+        lbl.layer.backgroundColor = digitBackgroundColor?.cgColor
         lbl.font = font
+        lbl.textColor = digitColor
         lbl.textAlignment = .center
         lbl.isUserInteractionEnabled = false
         return lbl
@@ -198,6 +206,7 @@ open class SGDigitTextField: UITextField {
     private func updateLabelFocus(focus: Bool = true) {
         labels.forEach {
             $0.layer.borderColor = borderColor.cgColor
+            $0.layer.backgroundColor = digitBackgroundColor?.cgColor
         }
 
         if !focus { return }
