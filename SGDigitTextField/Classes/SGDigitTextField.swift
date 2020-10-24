@@ -188,13 +188,13 @@ open class SGDigitTextField: UITextField {
         let lbl = UILabel()
         lbl.layer.cornerRadius = cornerRadius
         lbl.layer.borderColor = borderColor.cgColor
-        lbl.layer.masksToBounds = cornerRadius > 0
+//        lbl.layer.masksToBounds = cornerRadius > 0
         lbl.layer.borderWidth = borderWidth
         lbl.layer.shadowColor = shadowColor?.cgColor
         lbl.layer.shadowOffset = shadowOffset
         lbl.layer.shadowRadius = shadowRadius
         lbl.layer.shadowOpacity = shadowOpacity
-        lbl.backgroundColor = digitBackgroundColor
+        lbl.layer.backgroundColor = digitBackgroundColor?.cgColor
         lbl.font = font
         lbl.textColor = digitColor
         lbl.textAlignment = .center
@@ -206,7 +206,7 @@ open class SGDigitTextField: UITextField {
     private func updateLabelFocus(focus: Bool = true) {
         labels.forEach {
             $0.layer.borderColor = borderColor.cgColor
-            $0.backgroundColor = digitBackgroundColor
+            $0.layer.backgroundColor = digitBackgroundColor?.cgColor
         }
 
         if !focus { return }
@@ -215,7 +215,7 @@ open class SGDigitTextField: UITextField {
 
         let focusedLabel = labels[text.count]
         focusedLabel.layer.borderColor = highlightedBorderColor.cgColor
-        focusedLabel.backgroundColor = highlightedDigitBackgroundColor
+        focusedLabel.layer.backgroundColor = highlightedDigitBackgroundColor?.cgColor
     }
 
     /// Triggered when text changed
