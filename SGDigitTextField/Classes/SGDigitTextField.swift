@@ -26,6 +26,13 @@ open class SGDigitTextField: UITextField {
             configure(with: digitCount)
         }
     }
+    
+    @IBInspectable
+    var digitMargin: Int = 4 {
+        didSet {
+            configure(with: digitCount)
+        }
+    }
 
     /// Digit label normal border color
     @IBInspectable
@@ -166,7 +173,7 @@ open class SGDigitTextField: UITextField {
     private func createStackView(for count: Int) {
 
         let stack = UIStackView(frame: bounds)
-        stack.spacing = 5
+        stack.spacing = CGFloat(digitMargin)
         stack.alignment = .fill
         stack.distribution = .fillEqually
         stack.axis = .horizontal
