@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		404611F7A994AF8EB10F53DBEB7825A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45B46B71074BE0697A492DE51F8E55F0 /* Pods-SGDigitTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A28DDF482FA5F132CC524863CA7361 /* Pods-SGDigitTextField_Tests-dummy.m */; };
 		4F5C0B0882E07FEE7E27BB75106518EE /* SGDigitTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1402A46589AF8104818AA7557B7A41AA /* SGDigitTextField-dummy.m */; };
-		6414804D5DA927316A84C811DEDD7D29 /* Pods-SGDigitTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 577C05590F984438CEBDE2D75F057C19 /* Pods-SGDigitTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71FB1932B410118A1273C15EBB311F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		842FFC192C9798FA9E983DD61CD0116B /* Pods-SGDigitTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AE275EC002459122FA6688B57455A2 /* Pods-SGDigitTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B75BB03CF9DCC5BBB73BA1D1CDF591B /* SGDigitTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D08738D44DB4C1F39BDD444E9869DD /* SGDigitTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C762EBD5D922D3CD101F87D5C1ACE7B3 /* Pods-SGDigitTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AE275EC002459122FA6688B57455A2 /* Pods-SGDigitTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9214E74965C697EF3B5B28239C15FC31 /* Pods-SGDigitTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 577C05590F984438CEBDE2D75F057C19 /* Pods-SGDigitTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA80D8957CB11BA760C5C99093C02CF0 /* SGDigitTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE6541C0F84E1F66E6118FEA40BCAD /* SGDigitTextField.swift */; };
-		E40F531B41790D7F1A01EDEC5347D238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E6D16B2331962DC1FCE825ABAE7DAB39 /* Pods-SGDigitTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E7FC8F393CDFF3F6B6F073291242 /* Pods-SGDigitTextField_Example-dummy.m */; };
-		F275710A46C1D5935E3CE7FF124B67E9 /* Pods-SGDigitTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A28DDF482FA5F132CC524863CA7361 /* Pods-SGDigitTextField_Tests-dummy.m */; };
+		CD4F1C737CFF54ADE5F8149DB88CF6CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E540B0E9E6D6449A953686E15AFAD4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECAE1EBF2CEBF6E4527A508395FC4C49 /* Pods-SGDigitTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E7FC8F393CDFF3F6B6F073291242 /* Pods-SGDigitTextField_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D1A316BD8193F113FB9D8A6A39CF040E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3B416672F6E65702C2FB68AB02AC5CA;
-			remoteInfo = "Pods-SGDigitTextField_Example";
-		};
-		F95BC93867F07B570E49089F5D5EA80A /* PBXContainerItemProxy */ = {
+		B34A4852054AEC15B3406D88F1A550A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 611F5A158CECA35CD3732830A42CE76E;
 			remoteInfo = SGDigitTextField;
+		};
+		FC06FF1459A6FE1850266F27F09F6843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B416672F6E65702C2FB68AB02AC5CA;
+			remoteInfo = "Pods-SGDigitTextField_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,27 +73,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B63762E080DBB2957C61997992A93C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F1C737CFF54ADE5F8149DB88CF6CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419F995F847A745257A35944F95DB25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E540B0E9E6D6449A953686E15AFAD4D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		637F184BFE878FC6A146D5521AB034D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71FB1932B410118A1273C15EBB311F4C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FEACC4C8F827947B749CA82F4EAD826 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				404611F7A994AF8EB10F53DBEB7825A2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F580B45413A4E37353BA1BE830313A08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E40F531B41790D7F1A01EDEC5347D238 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,19 +226,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		34FF876069D29395225BFDE9BA6A9E2E /* Headers */ = {
+		25504EC1772F7A90689CA660F4094395 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6414804D5DA927316A84C811DEDD7D29 /* Pods-SGDigitTextField_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8322E28D59F012CF455E3A8E92E96085 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C762EBD5D922D3CD101F87D5C1ACE7B3 /* Pods-SGDigitTextField_Example-umbrella.h in Headers */,
+				842FFC192C9798FA9E983DD61CD0116B /* Pods-SGDigitTextField_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +239,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B75BB03CF9DCC5BBB73BA1D1CDF591B /* SGDigitTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127484DF62CBF3503EB5E78FB957F91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214E74965C697EF3B5B28239C15FC31 /* Pods-SGDigitTextField_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,17 +273,17 @@
 		};
 		E3B416672F6E65702C2FB68AB02AC5CA /* Pods-SGDigitTextField_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 791912C670602514FB207AE6B92BD744 /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Example" */;
+			buildConfigurationList = CE2CA1569FAC1A978EEFDD0CC1FDAFA4 /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Example" */;
 			buildPhases = (
-				8322E28D59F012CF455E3A8E92E96085 /* Headers */,
-				2C2EB234D8C8B6BD51EEE3C5AAACEF30 /* Sources */,
-				F580B45413A4E37353BA1BE830313A08 /* Frameworks */,
-				0F2F97ECDEB9E4E949497814DFA1257C /* Resources */,
+				25504EC1772F7A90689CA660F4094395 /* Headers */,
+				5285D63B5DE3F0A173152A33D427E993 /* Sources */,
+				0B63762E080DBB2957C61997992A93C2 /* Frameworks */,
+				1CE5A1DEE8535BFDAE195FB205E9E4B7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E4F357EE7CD933B8FECB0095CF15FDF /* PBXTargetDependency */,
+				F5113E50D0B706F1F144A90D4CEAE213 /* PBXTargetDependency */,
 			);
 			name = "Pods-SGDigitTextField_Example";
 			productName = "Pods-SGDigitTextField_Example";
@@ -292,17 +292,17 @@
 		};
 		F5E7F7154D3B47788A8D32805BB13FDD /* Pods-SGDigitTextField_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6C8E684CA37D77C5CD23647E116AA87 /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Tests" */;
+			buildConfigurationList = EA3E230953B9A500CB011C94B843BB0D /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Tests" */;
 			buildPhases = (
-				34FF876069D29395225BFDE9BA6A9E2E /* Headers */,
-				EB92BB4EE4AE591EE4A37BECACE11B90 /* Sources */,
-				7FEACC4C8F827947B749CA82F4EAD826 /* Frameworks */,
-				880D84B6407D1E436FFA42C83581A74D /* Resources */,
+				E127484DF62CBF3503EB5E78FB957F91 /* Headers */,
+				384FF8D659109D5182B8C379C2994808 /* Sources */,
+				419F995F847A745257A35944F95DB25E /* Frameworks */,
+				BD830142658F734B12639B9A2005CE01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01C13465F7BE3BC1675DDF4B2B6163AD /* PBXTargetDependency */,
+				9EA1FCA5565055F8F6E461802D235F98 /* PBXTargetDependency */,
 			);
 			name = "Pods-SGDigitTextField_Tests";
 			productName = "Pods-SGDigitTextField_Tests";
@@ -339,14 +339,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F2F97ECDEB9E4E949497814DFA1257C /* Resources */ = {
+		1CE5A1DEE8535BFDAE195FB205E9E4B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		880D84B6407D1E436FFA42C83581A74D /* Resources */ = {
+		BD830142658F734B12639B9A2005CE01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,11 +363,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C2EB234D8C8B6BD51EEE3C5AAACEF30 /* Sources */ = {
+		384FF8D659109D5182B8C379C2994808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D16B2331962DC1FCE825ABAE7DAB39 /* Pods-SGDigitTextField_Example-dummy.m in Sources */,
+				45B46B71074BE0697A492DE51F8E55F0 /* Pods-SGDigitTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5285D63B5DE3F0A173152A33D427E993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAE1EBF2CEBF6E4527A508395FC4C49 /* Pods-SGDigitTextField_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,132 +388,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB92BB4EE4AE591EE4A37BECACE11B90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F275710A46C1D5935E3CE7FF124B67E9 /* Pods-SGDigitTextField_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01C13465F7BE3BC1675DDF4B2B6163AD /* PBXTargetDependency */ = {
+		9EA1FCA5565055F8F6E461802D235F98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SGDigitTextField_Example";
 			target = E3B416672F6E65702C2FB68AB02AC5CA /* Pods-SGDigitTextField_Example */;
-			targetProxy = D1A316BD8193F113FB9D8A6A39CF040E /* PBXContainerItemProxy */;
+			targetProxy = FC06FF1459A6FE1850266F27F09F6843 /* PBXContainerItemProxy */;
 		};
-		8E4F357EE7CD933B8FECB0095CF15FDF /* PBXTargetDependency */ = {
+		F5113E50D0B706F1F144A90D4CEAE213 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SGDigitTextField;
 			target = 611F5A158CECA35CD3732830A42CE76E /* SGDigitTextField */;
-			targetProxy = F95BC93867F07B570E49089F5D5EA80A /* PBXContainerItemProxy */;
+			targetProxy = B34A4852054AEC15B3406D88F1A550A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B5C9CC6AADBB23290B68F287DEE77A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C023E8DAC63C79BE007F07418B2FDD2D /* Pods-SGDigitTextField_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3E588D6952D75DDFEF7D3965D13FAE89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5FE916F5DE78C32620334ECC4062A2 /* Pods-SGDigitTextField_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		405BAAD20085EBBEBDEBA4D94ADCC69A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A9E7B7BABFBFF4D2729662906EB517 /* Pods-SGDigitTextField_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5AFAA850C99E6148B59DC906F0891CD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EA4A8524B26BDDA32159CEA817BDA06 /* SGDigitTextField.debug.xcconfig */;
@@ -569,9 +469,9 @@
 			};
 			name = Release;
 		};
-		9C938C200F3CD06F876EAB1EF4AD0C0F /* Release */ = {
+		93AEF98237129C95EEE616C6EB955A33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AD53EF53D786070AA69467E461DD8BA /* Pods-SGDigitTextField_Example.release.xcconfig */;
+			baseConfigurationReference = C8A9E7B7BABFBFF4D2729662906EB517 /* Pods-SGDigitTextField_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -583,12 +483,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -727,6 +627,106 @@
 			};
 			name = Debug;
 		};
+		E1D1E319C3CFCFD9E21C7F82E8DCC620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD53EF53D786070AA69467E461DD8BA /* Pods-SGDigitTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E994A2418142CD92D7AB890F474CFD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5FE916F5DE78C32620334ECC4062A2 /* Pods-SGDigitTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Example/Pods-SGDigitTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF5F4F919E999F4187F27F4BBE593EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C023E8DAC63C79BE007F07418B2FDD2D /* Pods-SGDigitTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGDigitTextField_Tests/Pods-SGDigitTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -739,20 +739,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		791912C670602514FB207AE6B92BD744 /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Example" */ = {
+		CE2CA1569FAC1A978EEFDD0CC1FDAFA4 /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E588D6952D75DDFEF7D3965D13FAE89 /* Debug */,
-				9C938C200F3CD06F876EAB1EF4AD0C0F /* Release */,
+				E994A2418142CD92D7AB890F474CFD33 /* Debug */,
+				E1D1E319C3CFCFD9E21C7F82E8DCC620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6C8E684CA37D77C5CD23647E116AA87 /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Tests" */ = {
+		EA3E230953B9A500CB011C94B843BB0D /* Build configuration list for PBXNativeTarget "Pods-SGDigitTextField_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B5C9CC6AADBB23290B68F287DEE77A2 /* Debug */,
-				405BAAD20085EBBEBDEBA4D94ADCC69A /* Release */,
+				EF5F4F919E999F4187F27F4BBE593EC1 /* Debug */,
+				93AEF98237129C95EEE616C6EB955A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

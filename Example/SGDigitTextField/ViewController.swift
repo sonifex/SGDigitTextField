@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self,
                                                 action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tapGesture)
+        
+        digitTextField.typingFinishedHandler = { value in
+            debugPrint("Value : \(value)")
+        }
     }
 
     @IBAction func dismissKeyboard() {
