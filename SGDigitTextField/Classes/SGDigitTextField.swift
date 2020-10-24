@@ -108,6 +108,9 @@ open class SGDigitTextField: UITextField {
     
     @IBInspectable
     var autoDismissKeyboard: Bool = true
+    
+    /// Triggered when typing completed with all digits
+    public var typingFinishedHandler: ((_ value: String) -> Void)?
 
 
     /// When isSecureTextEntry is selected, this character will be shown
@@ -281,6 +284,7 @@ extension SGDigitTextField: UITextFieldDelegate {
             DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(100)) {
                 // To complete the texting process add 100 mil delay
                 self.dismissKeyboard()
+                self.typingFinishedHandler?(text+string)
             }
         }
 

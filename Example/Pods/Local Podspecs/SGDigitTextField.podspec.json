@@ -1,6 +1,6 @@
 {
   "name": "SGDigitTextField",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Elegant and Simplest Digit UITextField",
   "description": "Elegant & Simplest Digit UITextField.\nYou can also configure the textfield without coding.",
   "homepage": "https://github.com/sonifex/SGDigitTextField",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sonifex/SGDigitTextField.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "social_media_url": "https://twitter.com/sonifex",
   "platforms": {

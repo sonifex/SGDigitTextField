@@ -1,5 +1,5 @@
 PODS:
-  - SGDigitTextField (0.1.0)
+  - SGDigitTextField (0.2.0)
 
 DEPENDENCIES:
   - SGDigitTextField (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SGDigitTextField: b5dc4a36210e3853a7b637706fcbafe21e3c69d3
+  SGDigitTextField: 2b43ffa08c629dc002612d71f37a78d3321b09f3
 
 PODFILE CHECKSUM: 29391b6e3145ec9b6f6540ffe7a502bc9cff39b8
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.3
