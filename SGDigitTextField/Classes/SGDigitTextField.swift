@@ -105,6 +105,9 @@ open class SGDigitTextField: UITextField {
             reload()
         }
     }
+    
+    @IBInspectable
+    var autoDismissKeyboard: Bool = true
 
 
     /// When isSecureTextEntry is selected, this character will be shown
@@ -251,6 +254,11 @@ open class SGDigitTextField: UITextField {
     @objc func keyboardWillHide(notification: Notification) {
         updateLabelFocus(focus: false)
     }
+    
+    private func dismissKeyboard() {
+        endEditing(true)
+    }
+    
 }
 
 extension SGDigitTextField: UITextFieldDelegate {
@@ -266,6 +274,14 @@ extension SGDigitTextField: UITextFieldDelegate {
             self.text?.removeLast()
             updateLabelFocus()
             return false
+        }
+        
+        // If typing at the end and auto dismiss enabled, dismiss keyboard
+        if (text.count + string.count) == labels.count && autoDismissKeyboard {
+            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(100)) {
+                // To complete the texting process add 100 mil delay
+                self.dismissKeyboard()
+            }
         }
 
         guard text.count < labels.count else { return false }
