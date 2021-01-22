@@ -14,21 +14,21 @@ open class SGDigitTextField: UITextField {
     }
 
     @IBInspectable
-    var digitCount: Int = 0 {
+    public var digitCount: Int = 0 {
         didSet {
             configure(with: digitCount)
         }
     }
     
     @IBInspectable
-    var digitColor: UIColor = .black {
+    public var digitColor: UIColor = .black {
         didSet {
             configure(with: digitCount)
         }
     }
     
     @IBInspectable
-    var digitMargin: Int = 4 {
+    public var digitMargin: Int = 4 {
         didSet {
             configure(with: digitCount)
         }
@@ -36,7 +36,7 @@ open class SGDigitTextField: UITextField {
 
     /// Digit label normal border color
     @IBInspectable
-    var borderColor: UIColor = .gray {
+    public var borderColor: UIColor = .gray {
         didSet {
             reload()
         }
@@ -44,21 +44,21 @@ open class SGDigitTextField: UITextField {
 
     /// Digit label highlighted border color
     @IBInspectable
-    var highlightedBorderColor: UIColor = .red {
+    public var highlightedBorderColor: UIColor = .red {
         didSet {
             reload()
         }
     }
 
     @IBInspectable
-    var borderWidth: CGFloat = 1.0 {
+    public var borderWidth: CGFloat = 1.0 {
         didSet {
             reload()
         }
     }
 
     @IBInspectable
-    var cornerRadius: CGFloat = 10.0 {
+    public var cornerRadius: CGFloat = 10.0 {
         didSet {
             reload()
         }
@@ -79,43 +79,45 @@ open class SGDigitTextField: UITextField {
     }
 
     @IBInspectable
-    var shadowOffset: CGSize = .zero {
+    public var shadowOffset: CGSize = .zero {
         didSet {
             reload()
         }
     }
 
     @IBInspectable
-    var shadowColor: UIColor? {
+    public var shadowColor: UIColor? {
         didSet {
             reload()
         }
     }
 
     @IBInspectable
-    var digitBackgroundColor: UIColor? {
+    public var digitBackgroundColor: UIColor? {
         didSet {
             reload()
         }
     }
 
     @IBInspectable
-    var highlightedDigitBackgroundColor: UIColor? {
+    public var highlightedDigitBackgroundColor: UIColor? {
         didSet {
             reload()
         }
     }
     
     @IBInspectable
-    var autoDismissKeyboard: Bool = true
+    public var autoDismissKeyboard: Bool = true
     
     /// Triggered when typing completed with all digits
     public var typingFinishedHandler: ((_ value: String) -> Void)?
 
 
     /// When isSecureTextEntry is selected, this character will be shown
+    @IBInspectable
     public var secureCharacter: String = "●"
 
+    
     private var labels = [UILabel]()
     private var stackView: UIStackView?
 
@@ -201,7 +203,6 @@ open class SGDigitTextField: UITextField {
         let lbl = UILabel()
         lbl.layer.cornerRadius = cornerRadius
         lbl.layer.borderColor = borderColor.cgColor
-//        lbl.layer.masksToBounds = cornerRadius > 0
         lbl.layer.borderWidth = borderWidth
         lbl.layer.shadowColor = shadowColor?.cgColor
         lbl.layer.shadowOffset = shadowOffset
@@ -233,7 +234,7 @@ open class SGDigitTextField: UITextField {
 
     /// Triggered when text changed
     @IBAction private func textChanged() {
-        debugPrint("text: \(text ?? "-")")
+        debugPrint("Digit Text Changed: \(text ?? "-")")
         guard let text = text, text.count <= labels.count else { return }
 
         for i in 0 ..< labels.count {
@@ -261,10 +262,10 @@ open class SGDigitTextField: UITextField {
     private func dismissKeyboard() {
         endEditing(true)
     }
-    
 }
 
 extension SGDigitTextField: UITextFieldDelegate {
+    
     public func textField(_ textField: UITextField,
                           shouldChangeCharactersIn range: NSRange,
                           replacementString string: String) -> Bool {
@@ -291,5 +292,20 @@ extension SGDigitTextField: UITextFieldDelegate {
         guard text.count < labels.count else { return false }
 
         return true
+    }
+}
+
+extension SGDigitTextField {
+    
+    open override func selectionRects(for range: UITextRange) -> [UITextSelectionRect] {
+        return []
+    }
+    
+    open override func caretRect(for position: UITextPosition) -> CGRect {
+        return .zero
+    }
+    
+    open override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+        return false
     }
 }

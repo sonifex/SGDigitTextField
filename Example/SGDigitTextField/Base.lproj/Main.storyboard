@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SyD-Kf-FNB" customClass="SGDigitTextField" customModule="SGDigitTextField">
-                                <rect key="frame" x="80" y="238.5" width="215" height="50"/>
+                                <rect key="frame" x="80" y="50" width="215" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -74,37 +74,155 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtW-rt-roi">
-                                <rect key="frame" x="162.5" y="602" width="50" height="45"/>
+                                <rect key="frame" x="156" y="602" width="63" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="P9v-tz-TfM"/>
-                                    <constraint firstAttribute="width" constant="50" id="Zpl-bl-63T"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <state key="normal" title="Reset"/>
                                 <connections>
                                     <action selector="resetButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qW4-QJ-ex1"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bgR-V3-AMJ" customClass="SGDigitTextField" customModule="SGDigitTextField">
+                                <rect key="frame" x="37.5" y="190" width="300" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1HD-nR-nbz"/>
+                                    <constraint firstAttribute="width" constant="300" id="7Gi-Qx-Kvl"/>
+                                </constraints>
+                                <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="digitCount">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedBorderColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r9p-Me-fhe" customClass="SGDigitTextField" customModule="SGDigitTextField">
+                                <rect key="frame" x="37.5" y="260" width="300" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ntt-Kd-kYR"/>
+                                    <constraint firstAttribute="height" constant="50" id="SPN-Cx-Jhl"/>
+                                </constraints>
+                                <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="digitCount">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedBorderColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="secureCharacter" value="X"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="digitMargin">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="19"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="digitBackgroundColor">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedDigitBackgroundColor">
+                                        <color key="value" systemColor="systemTealColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="digitColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BpZ-HP-HTN" customClass="SGDigitTextField" customModule="SGDigitTextField">
+                                <rect key="frame" x="62.5" y="120" width="250" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BV2-O1-4Sm"/>
+                                    <constraint firstAttribute="width" constant="250" id="zYQ-pp-UJK"/>
+                                </constraints>
+                                <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="digitCount">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedBorderColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bgR-V3-AMJ" firstAttribute="top" secondItem="BpZ-HP-HTN" secondAttribute="bottom" constant="20" id="4AV-iC-eVg"/>
+                            <constraint firstItem="SyD-Kf-FNB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="De3-6E-r3B"/>
+                            <constraint firstItem="r9p-Me-fhe" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Gc6-Pe-bUy"/>
+                            <constraint firstItem="BpZ-HP-HTN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Mch-c7-i3e"/>
+                            <constraint firstItem="r9p-Me-fhe" firstAttribute="top" secondItem="bgR-V3-AMJ" secondAttribute="bottom" constant="20" id="b1m-pX-DP3"/>
+                            <constraint firstItem="bgR-V3-AMJ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="dhV-8c-Ywt"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="WtW-rt-roi" secondAttribute="bottom" constant="20" id="mGI-Xb-Llh"/>
                             <constraint firstItem="WtW-rt-roi" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="mTh-VO-G4Q"/>
-                            <constraint firstItem="SyD-Kf-FNB" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-70" id="sEp-FJ-2Ou"/>
+                            <constraint firstItem="BpZ-HP-HTN" firstAttribute="top" secondItem="SyD-Kf-FNB" secondAttribute="bottom" constant="20" id="mzB-LV-LUy"/>
                             <constraint firstItem="SyD-Kf-FNB" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="tVg-Qc-B8H"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="digitTextField" destination="SyD-Kf-FNB" id="5PO-32-cd9"/>
+                        <outlet property="digitTextField" destination="SyD-Kf-FNB" id="Q3a-eP-ePp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-508" y="-859"/>
+            <point key="canvasLocation" x="-642" y="-871"/>
         </scene>
     </scenes>
     <designables>
+        <designable name="BpZ-HP-HTN">
+            <size key="intrinsicContentSize" width="7" height="34"/>
+        </designable>
         <designable name="SyD-Kf-FNB">
-            <size key="intrinsicContentSize" width="7" height="35"/>
+            <size key="intrinsicContentSize" width="7" height="34"/>
+        </designable>
+        <designable name="bgR-V3-AMJ">
+            <size key="intrinsicContentSize" width="7" height="34"/>
+        </designable>
+        <designable name="r9p-Me-fhe">
+            <size key="intrinsicContentSize" width="7" height="34"/>
         </designable>
     </designables>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
