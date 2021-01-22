@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SGDigitTextField'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Elegant and Simplest Digit UITextField'
 
 # This description is used to generate tags and improve search results.
